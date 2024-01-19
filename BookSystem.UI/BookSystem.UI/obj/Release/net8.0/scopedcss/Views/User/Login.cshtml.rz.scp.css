@@ -1,0 +1,57 @@
+
+
+.alert[b-2kt6dg059n]{
+    background-color:rgba(255,0,0,.6);
+    color:white
+}
+
+h3[b-2kt6dg059n] {
+    text-align: center;
+}
+
+.form[b-2kt6dg059n] {
+    margin: 0;
+}
+
+form > div[b-2kt6dg059n] {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"][b-2kt6dg059n],
+input[type="password"][b-2kt6dg059n] {
+    margin-bottom: 10px;
+    width: 400px
+}
+
+@media(max-width:576px) {
+    input[type="text"][b-2kt6dg059n],
+    input[type="password"][b-2kt6dg059n] {
+        width: 300px
+    }
+}
+
+input[type="submit"][b-2kt6dg059n] {
+    width: 150px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: #777;
+    color: white;
+    padding: 5px
+}
+
+@media(max-width:576px) {
+    input[type="submit"][b-2kt6dg059n] {
+        width: 100px
+    }
+}
+
+input[type="submit"]:hover[b-2kt6dg059n] {
+    background-color: #aaa;
+}
+
+.navig[b-2kt6dg059n] {
+    align-self: flex-end;
+}

@@ -1,0 +1,80 @@
+﻿
+
+
+
+.alert{
+    background-color: rgba(255,0,0,.6);
+    margin-bottom: 10px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    animation-duration: 5s;
+    animation-name: alert-animation;
+    animation-fill-mode: forwards
+}
+
+@keyframes alert-animation {
+    0%,90% {
+        display: block;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        display: none;
+        opacity: 0;
+    }
+}
+
+h3 {
+    text-align: center;
+}
+
+.form {
+    margin: 0;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin-bottom: 10px;
+    width: 400px
+}
+
+@media(max-width:576px) {
+    input[type="text"],
+    input[type="password"] {
+        width: 300px
+    }
+}
+
+input[type="submit"] {
+    width: 150px;
+    align-self: flex-end;
+    margin-bottom: 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: #777;
+    color: white;
+    padding: 5px
+}
+
+@media(max-width:576px) {
+    input[type="submit"] {
+        width: 100px
+    }
+}
+
+input[type="submit"]:hover {
+    background-color: #aaa;
+}
+
+.navig {
+    align-self: flex-end;
+}

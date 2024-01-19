@@ -1,0 +1,95 @@
+﻿
+
+input {
+    margin-bottom: 10px
+}
+
+
+
+.search-body {
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap: 10px
+}
+
+.custom-card {
+    padding: 10px;
+    background-color: white;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.custom-card:hover {
+    transform: translateY(-2px);
+    transition: 1s;
+    cursor: context-menu;
+}
+
+.custom-card div:last-child > label,
+.custom-card div:last-child > input {
+    cursor: pointer;
+}
+
+.ord {
+    min-height: 96vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ord input {
+    width: fit-content;
+    align-self: flex-end
+}
+
+.custom-alert {
+    background-color: rgba(255,0,0,.6);
+}
+.custom-success {
+    background-color: rgba(0,255,0,.6);
+}
+
+.custom-alert,
+.custom-success {
+    margin-bottom:10px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    animation-duration: 5s;
+    animation-name: alert-animation;
+    animation-fill-mode: forwards
+}
+
+@keyframes alert-animation {
+    0%,90% {
+        display: block;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        display: none;
+        opacity: 0;
+    }
+}
+
+.ord > .borrow {
+    border: none;
+    border-radius: 2px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px 20px
+}
+.custom-card span {
+    font-weight: 400;
+    font-size: 14px
+}
+.custom-card > div,
+.custom-card > label {
+    font-weight: 600
+}

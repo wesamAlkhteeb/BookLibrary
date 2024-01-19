@@ -1,0 +1,16 @@
+D:\Projects\BookSystem\BusinessLoginLayer\bin\Release\net8.0\BusinessLayer.deps.json
+D:\Projects\BookSystem\BusinessLoginLayer\bin\Release\net8.0\BusinessLayer.dll
+D:\Projects\BookSystem\BusinessLoginLayer\bin\Release\net8.0\BusinessLayer.pdb
+D:\Projects\BookSystem\BusinessLoginLayer\bin\Release\net8.0\DataAccessLayer.dll
+D:\Projects\BookSystem\BusinessLoginLayer\bin\Release\net8.0\DataAccessLayer.pdb
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\BusinessLayer.AssemblyInfo.cs
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\BusinessLayer.sourcelink.json
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\BusinessLayer.csproj.CopyComplete
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\BusinessLayer.dll
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\refint\BusinessLayer.dll
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\BusinessLayer.pdb
+D:\Projects\BookSystem\BusinessLoginLayer\obj\Release\net8.0\ref\BusinessLayer.dll

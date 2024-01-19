@@ -1,0 +1,102 @@
+﻿
+
+
+@{
+    List<Dictionary<string, string>> links = new List<Dictionary<string,string>>()
+    {
+        new Dictionary<string, string>
+        {
+            {"name","Search"},
+            {"path","/book/search"},
+            {"icon","search"}
+        },
+        new Dictionary<string, string>
+        {
+            {"name","Borrowed"},
+            {"path","/book/borrowed"},
+            {"icon","menu_book"}
+        },
+        new Dictionary<string, string>
+        {
+            {"name","Logout"},
+            {"path","/user/login"},
+            {"icon","logout"}
+        }
+    };
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BookSystem.UI</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/BookSystem.UI.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script>
+        var isClickMenu = false;
+        function toggleMenu() {
+            isClickMenu = !isClickMenu;
+            document.getElementsByClassName("side-items")[0].style.display = isClickMenu ? "block" : "none";
+            console.log(isClickMenu);
+        }
+        
+        
+        window.addEventListener("resize", (e) => {
+            isClickMenu = window.innerWidth > 576;
+            document.getElementsByClassName("side-items")[0].style.display = isClickMenu ? "block" : "none";
+        });
+        function clearCookie() {
+            var cookies = document.cookie.split(";");
+
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = cookies[i];
+                var eqPos = cookie.indexOf("=");
+                var name = eqPos > -1 ? cookie.substr(0, eqPos) : cookie;
+                document.cookie = name + "=;expires=Thu, 01 Jan 1970 00:00:00 GMT;path=/";
+            }
+        }
+    </script>
+</head>
+<body style="margin:0;">
+    
+    <div class="body">
+        <div class="side">
+            <div class="brand-site">Books Library</div>
+            <div class="side-items">
+                @for (int i = 0; i < @links.Count; i++)
+                {
+                    @if(i == links.Count-1)
+                    {
+                        <a href="@links[i]["path"]" class="side-item" onclick="clearCookie()">
+                            <span class="material-symbols-outlined">
+                                @links[i]["icon"]
+                            </span>
+                            <p>@links[i]["name"]</p>
+                        </a>
+                    }else
+                    {
+                        <a href="@links[i]["path"]" class="side-item">
+                            <span class="material-symbols-outlined">
+                                @links[i]["icon"]
+                            </span>
+                            <p>@links[i]["name"]</p>
+                        </a>
+                    }
+
+                    
+                }
+            </div>
+            <span class="material-symbols-outlined" onclick="toggleMenu()">
+                menu
+            </span>
+            
+        </div>
+        <div>     
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,153 @@
+﻿a{
+    text-decoration:none;
+    color:black;
+}
+
+
+.body{
+    width:100vw;
+    height:100vh;
+    display:flex;
+    margin:0;
+}
+@media(max-width:576px) {
+    .body {
+        flex-direction:column;
+    }
+}
+
+.body .side{
+    flex:1;
+    padding:5px;
+    display:flex;
+    flex-direction:column;
+    margin-top:5px;
+    position:relative;
+}
+@media(max-width:576px) {
+    .body .side {
+        flex-direction: row;
+        justify-content: space-between;
+        max-height: 50px;
+    }
+}
+
+.body > div:last-child{
+    flex:6;
+    background:#ddd;
+    padding:10px;
+    min-height: 50vh
+}
+
+@media(max-width:768px){
+    .body > div:last-child {
+        flex: 4;
+        min-height: calc( 100% - 120px );
+    }
+}
+
+@media(max-width:576px) {
+    .body > div:last-child {
+        flex: 4;
+        min-height: calc( 100% - 200px );
+    }
+}
+
+
+.brand-site {
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5px;
+    
+}
+.brand-site::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 1px;
+    background-color: #333;
+}
+
+@media(max-width:576px) {
+    .brand-site 
+    {
+        max-height:50px;
+        margin-bottom: 0;
+        padding:7px 5px 5px
+
+    }
+    .brand-site::after {
+        display: none;
+    }
+}
+
+.side .side-items {
+    padding: 10px;
+}
+
+@media(max-width:576px) {
+    .side .side-items {
+        position: absolute;
+        right: 10px;
+        bottom: -120px;
+        border-radius: 3px;
+        background-color: white;
+        width: fit-content;
+    }
+    .side .side-items::before {
+        content: "";
+        position: absolute;
+        border-width: 10px;
+        border-color: transparent transparent white transparent;
+        border-style: solid;
+        top: -20px;
+        right: 5px;
+    }
+}
+
+
+.side .side-item{
+    display:flex;
+    align-content:center;
+    cursor:pointer;
+    padding:10px;
+}
+
+.side .side-item:hover{
+    background-color:#ddd;
+    border-radius:5px;
+}
+
+.side .side-item >p{
+    margin-left:5px;
+    font-size:14px;
+    height:10px;
+    padding:2px;
+}
+
+
+.side .side-item > span{
+    font-size:20px;
+    padding-top:5px;
+}
+.side > span:last-child{
+    display:none;
+    font-size:30px;
+    height:fit-content;
+    cursor:pointer;
+}
+
+@media(max-width:576px) {
+    .side > span:last-child {
+        display: block;
+    }
+
+}
+
+.scroll-container::-webkit-scrollbar {
+    display: none;
+}

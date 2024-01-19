@@ -1,0 +1,13 @@
+.container[b-wgkcgw85ba]{
+    margin: 20px auto;
+    display:flex;
+    justify-content:center;
+}
+
+
+.custom-card[b-wgkcgw85ba]{
+    background-color:white;
+    width:fit-content;
+    border-radius:5px;
+    padding: 20px 10px
+}

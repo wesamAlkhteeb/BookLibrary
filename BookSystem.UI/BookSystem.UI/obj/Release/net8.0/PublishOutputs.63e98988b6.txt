@@ -1,0 +1,8 @@
+C:\Projects\BookSystem.UI\BookSystem.UI\obj\Release\net8.0\PubTmp\Out\BookSystem.UI.exe
+C:\Projects\BookSystem.UI\BookSystem.UI\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Projects\BookSystem.UI\BookSystem.UI\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Projects\BookSystem.UI\BookSystem.UI\obj\Release\net8.0\PubTmp\Out\BookSystem.UI.dll
+C:\Projects\BookSystem.UI\BookSystem.UI\obj\Release\net8.0\PubTmp\Out\BookSystem.UI.deps.json
+C:\Projects\BookSystem.UI\BookSystem.UI\obj\Release\net8.0\PubTmp\Out\BookSystem.UI.runtimeconfig.json
+C:\Projects\BookSystem.UI\BookSystem.UI\obj\Release\net8.0\PubTmp\Out\BookSystem.UI.pdb
+C:\Projects\BookSystem.UI\BookSystem.UI\obj\Release\net8.0\PubTmp\Out\DotNet.Cookies.dll

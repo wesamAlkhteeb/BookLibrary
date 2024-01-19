@@ -1,0 +1,59 @@
+﻿
+
+@{
+    List<BookSearchModel> books = ViewBag.books;
+}
+
+
+<div class="search">
+    <form method="post" action="@Url.Action("SearchButton")">
+        <input type="text" name="data" value="@ViewBag.searchText" />
+        <input type="submit" class="borrow" value="Search" />
+        <select name="index">
+            <option value="1" selected>Title</option>
+            <option value="2" >Author</option>
+            <option value="3">ISBN</option>
+        </select>
+    </form>
+</div>
+
+@if(ViewData["load"]!=null)
+{
+    <div>
+        load
+    </div>
+
+}
+
+@if (ViewData["message"] != null)
+{
+    <class class="custom-alert">
+        @ViewData["message"]
+    </class>
+}
+
+<form action="@Url.Action("SelectBooks")" method="post">
+
+    <div class="ord">
+        <div class="search-body">
+            @if(books!=null){
+                @for (int i = 0; i < books.Count; i++)
+                {
+                    var id = $"selected{i}";
+                    <div class="custom-card">
+                        <div>
+                            <div>Title: <Span>@books[i].Title</Span></div>
+                            <div>Author: <Span>@books[i].Author</Span></div>
+                            <div>Is available : <Span>@books[i].IsAvailable</Span></div>
+                        </div>
+                        <div>
+                            <label for="@id">Check it</label>
+                            <input id="@id" type="checkbox" name="selecttions" value="@books[i].Id" />
+                        </div>
+                    </div>
+                }
+            }
+        </div>
+        <input type="submit" class="borrow" value="Borrow them" />
+    </div>
+</form>

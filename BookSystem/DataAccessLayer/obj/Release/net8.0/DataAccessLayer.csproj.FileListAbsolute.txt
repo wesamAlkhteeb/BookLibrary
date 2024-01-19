@@ -1,0 +1,13 @@
+D:\Projects\BookSystem\DataAccessLayer\bin\Release\net8.0\DataAccessLayer.deps.json
+D:\Projects\BookSystem\DataAccessLayer\bin\Release\net8.0\DataAccessLayer.dll
+D:\Projects\BookSystem\DataAccessLayer\bin\Release\net8.0\DataAccessLayer.pdb
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\DataAccessLayer.csproj.AssemblyReference.cache
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\DataAccessLayer.AssemblyInfoInputs.cache
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\DataAccessLayer.AssemblyInfo.cs
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\DataAccessLayer.sourcelink.json
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\DataAccessLayer.dll
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\refint\DataAccessLayer.dll
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\DataAccessLayer.pdb
+D:\Projects\BookSystem\DataAccessLayer\obj\Release\net8.0\ref\DataAccessLayer.dll

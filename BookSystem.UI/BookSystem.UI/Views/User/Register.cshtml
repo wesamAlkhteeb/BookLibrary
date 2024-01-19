@@ -1,0 +1,25 @@
+﻿@{
+    Layout = "~/Views/Shared/_AccountLayout.cshtml";
+
+}
+
+@if (ViewData["message"]!=null)
+{
+    <div class="alert">
+        @ViewData["message"]
+    </div>
+}
+
+<form class="form" method="post" asp-action="Register" asp-controller="user">
+    <div>
+        <h3>Register</h3>
+        <label for="username">Username</label>
+        <input id="username" type="text" name="name" required pattern="[a-zA-Z0-9]{4,}" title="Username must contain al least 4 letters."/>
+        <label for="password">Password</label>
+        <input id="password" type="password" name="password" required pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[\W_])(?=.*\d)[a-zA-Z\d\W_]{8,}$" title="Password must be at least 8 characters long and include at least one lowercase letter, one uppercase letter, one digit, and one special character." />
+        <input type="submit" value="Register" />
+        <div class="navig">
+            <a asp-action="Login" asp-controller="user">I have an account</a>
+        </div>
+    </div>
+</form>

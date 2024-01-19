@@ -1,0 +1,15 @@
+C:\Projects\BookSystem\BusinessLoginLayer\bin\Debug\net8.0\BusinessLoginLayer.deps.json
+C:\Projects\BookSystem\BusinessLoginLayer\bin\Debug\net8.0\BusinessLoginLayer.dll
+C:\Projects\BookSystem\BusinessLoginLayer\bin\Debug\net8.0\BusinessLoginLayer.pdb
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\BusinessLoginLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\BusinessLoginLayer.AssemblyInfoInputs.cache
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\BusinessLoginLayer.AssemblyInfo.cs
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\BusinessLoginLayer.csproj.CoreCompileInputs.cache
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\BusinessLoginLayer.dll
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\refint\BusinessLoginLayer.dll
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\BusinessLoginLayer.pdb
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\ref\BusinessLoginLayer.dll
+C:\Projects\BookSystem\BusinessLoginLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Projects\BookSystem\BusinessLoginLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\BusinessLoginLayer.csproj.AssemblyReference.cache
+C:\Projects\BookSystem\BusinessLoginLayer\obj\Debug\net8.0\BusinessLoginLayer.csproj.CopyComplete

@@ -1,0 +1,38 @@
+﻿@{
+
+    List<BorrowedBooksModel> books = ViewBag.borrowed;
+    var a = TempData["message"];
+    var b = TempData["isCurrect"];
+    var d = "asd";
+}
+
+
+@if (TempData["message"] != null)
+{
+    <div class="@TempData["isCurrect"]!.ToString()">
+        @TempData["message"]!.ToString()
+    </div>
+}
+
+<form action="@Url.Action("ReturnIt")" method="post">
+    <div class="ord">
+        <div class="search-body">
+            @for (int i = 0; i < books.Count(); i++)
+            {
+                var id = $"selected{i}";
+                <div class="custom-card">
+                    <div>
+                        <div>Title: <Span>@books[i].Title</Span></div>
+                    </div>
+                    <div>
+                        <label for="@id">Check it</label>
+                        <input id="@id" type="checkbox" name="selecttions" value="@books[i].Id" />
+                    </div>
+                </div>
+            }
+        </div>
+        <input type="submit" class="borrow" value="Return them" />
+    </div>
+
+
+</form>
